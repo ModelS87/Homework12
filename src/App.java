@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class App {
     public static void main (String [] args) {
         Autor levTolstoy = new Autor("Lev ","Tolstoy");
@@ -7,7 +9,12 @@ public class App {
         System.out.println("Имя автора - " + levTolstoy.getNameAutor());
         warAndPeace.setpublishingYear(2010);
         System.out.println("Новый год выпуска книги - " + warAndPeace.getpublishingYear());
+        System.out.println(levTolstoy);
+        System.out.println(silverHoof);
+        System.out.println(Autor.equals(new Autor()));
+
     }
+
 
 }
 
