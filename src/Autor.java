@@ -32,7 +32,7 @@ public class Autor {
     }
     @Override
     public int hashCode() {
-        return Objects.hash(surnameAutor,surnameAutor);
+        return Objects.hash(nameAutor,surnameAutor);
     }
 }
 
